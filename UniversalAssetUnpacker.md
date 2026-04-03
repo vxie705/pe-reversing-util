@@ -65,4 +65,3 @@ Para un éxito total en la extracción, el flujo recomendado es:
 
 ---
 
-_Herramienta desarrollada para el Toolkit de Análisis Binario de Ciberseguridad._
