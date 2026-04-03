@@ -52,9 +52,8 @@ UAX es ahora **modular**. Solo tienes que pasarle los archivos como argumentos e
 
 Para un éxito total en la extracción, el flujo recomendado es:
 
-1. **`PrepareIndex.py`**: Descomprime los bloques ZLIB del juego para generar el mapa `index.bin`.
-2. **`UniversalAssetUnpacker.exe`**: Extrae los activos reales usando el mapa generado.
-3. **`MassDecompressor.py`** (Opcional): Si los archivos extraídos están en formato ZLIB (como algunos `.dat`), este script los vuelve legibles al 100%.
+1. **`UniversalAssetUnpacker.exe`**: Extrae los activos reales usando el mapa generado.
+2. **`MassDecompressor.py`** (Opcional): Si los archivos extraídos están en formato ZLIB (como algunos `.dat`), este script los vuelve legibles al 100%.
 
 ---
 
