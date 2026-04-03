@@ -61,5 +61,5 @@ if __name__ == '__main__':
     if len(sys.argv) > 1:
         analyze_pe(sys.argv[1])
     else:
-        print(json.dumps({"error": "Uso: python analyze_pe_json.py <archivo.exe>"}))
+        print(json.dumps({"error": "Uso: python pe_analyzer.py <archivo.exe>"}))
 
