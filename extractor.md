@@ -8,5 +8,5 @@ Herramienta de búsqueda inteligente que localiza y extrae "trozos" (snippets) d
 ### Uso
 
 ```bash
-python check_strings.py <archivo.bin>
+python pattern_extractor.py <archivo.bin>
 ```
