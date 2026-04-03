@@ -34,7 +34,7 @@ void generic_extract(const std::string& indexFile, const std::string& archiveFil
         // Buscamos extensiones comunes de forma dinámica (Heurística de patrones)
         if (catalog[i] == '.' && (i + 4 < catalog.size())) {
             
-            // Verificamos extensiones conocidas (puedes añadir más aquí)
+            // Verificamos extensiones conocidas
             std::string ext = "";
             ext += (char)tolower(catalog[i+1]);
             ext += (char)tolower(catalog[i+2]);
@@ -42,7 +42,7 @@ void generic_extract(const std::string& indexFile, const std::string& archiveFil
 
             if (ext == "xml" || ext == "ula" || ext == "dat" || ext == "spr" || ext == "dds") {
                 
-                // Estos offsets son específicos para ciertos motores (Wolfteam/Softnyx)
+               
                 // En una versión 100% universal, esto podría ser un parámetro.
                 uint32_t offset = *reinterpret_cast<uint32_t*>(&catalog[i + 4]);
                 uint32_t size = *reinterpret_cast<uint32_t*>(&catalog[i + 10]);
