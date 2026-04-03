@@ -32,5 +32,5 @@ if __name__ == '__main__':
     if len(sys.argv) > 1:
         list_extensions(sys.argv[1])
     else:
-        print("[-] Uso: python check_strings.py <archivo.bin>")
+        print("[-] Uso: pattern_extractor.py <archivo.bin>")
 
