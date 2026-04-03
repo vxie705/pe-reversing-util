@@ -38,7 +38,7 @@ g++ -O3 UniversalAssetUnpacker.cpp -o UAX.exe -static
 ./UAX.exe input_binary.xfs input_binary.xfs ./output
 
 # Paso 2: Decodificar streams comprimidos en legibles
-python ZlibArchiveDecompressor.py ./output ./final_results
+python ZlibStreamDecoder.py ./output ./final_results
 ```
 
 ---
