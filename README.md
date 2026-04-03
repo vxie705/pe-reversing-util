@@ -28,21 +28,17 @@ graph LR
 - **Python 3.8+**: Instalado y configurado en el PATH.
 
 ### 2. Compilación del Extractor Nativo (UAX)
-Para obtener el máximo rendimiento en extracciones de GBs:
 ```bash
 g++ -O3 UniversalAssetUnpacker.cpp -o UAX.exe -static
 ```
 
 ### 3. Ejemplo de Uso (Workflow Completo)
 ```powershell
-# Paso 1: Localizar el índice maestro
-python PrepareIndex.py
+# Paso 1: Extraer activos del contenedor masivo
+./UAX.exe input_binary.xfs input_binary.xfs ./output
 
-# Paso 2: Extraer activos del contenedor masivo
-./UAX.exe index.bin archive.xfs ./output
-
-# Paso 3: Decodificar streams comprimidos en legibles
-python ZlibStreamDecoder.py ./output ./final_results
+# Paso 2: Decodificar streams comprimidos en legibles
+python ZlibArchiveDecompressor.py ./output ./final_results
 ```
 
 ---
