@@ -3,7 +3,7 @@ Herramienta de búsqueda inteligente que localiza y extrae "trozos" (snippets) d
 - Busca automáticamente archivos `.xml`, `.ula`, `.lua`, `.json` y `.txt`.
 - Muestra el **Offset Hexadecimal** exacto del hallazgo.
 - Imprime una previsualización (snippet) del contenido de 20 bytes antes y después del patrón.
-- Fundamental para localizar tablas
+- Fundamental para localizar tablas.
 
 ### Uso
 
