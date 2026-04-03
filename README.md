@@ -18,7 +18,7 @@ graph LR
 | :--- | :--- | :--- | :--- |
 | **`UniversalAssetUnpacker`** | C++ | Extractor heurístico de alta velocidad basado en patrones. | [Doc](./UniversalAssetUnpacker.md) |
 | **`ZlibStreamDecoder`** | Python | Decodificador masivo de flujos Zlib (RFC 1950). | [Doc](./ZlibStreamDecoder.md) |
-| **`pe_analyzer`** | Python | Escáner de cabeceras, secciones y entropía de binarios PE. | - |
+| **`pe_analyzer`** | Python | Escáner de cabeceras, secciones y entropía de binarios PE. | [Doc](./Readme.md) |
 
 ---
 ## 🚀 Inicio Rápido
